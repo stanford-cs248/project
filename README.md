@@ -56,6 +56,6 @@ The proposal will have the following sections:
 
 The video presentation of your project is due Wed March 20 at 5:00pm on Canvas.  **You cannot use late days for the video presentation since we will immediately coalesce all videos together into a long video for the class to see during the final exam slot on the afternoon of March 21st.** 
 
-## PRoject Report Submission 
+## Project Report Submission 
 
 The final project report is due Thu March 21st, 11:59:59 PM.  **You cannot use late days for the final project!** Full details of expectations for the report will be posted in the coming weeks.
