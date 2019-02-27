@@ -44,7 +44,7 @@ The proposal will have the following sections:
 
 * Names and SuNET ID's of the people working on the project
 
-* A brief 1-to-2 sentence summary of your project plus a potential image or link to a video that shows off an example of something you'd like  For example: _"We are going to extend assignment 1 with support for drawing spline curves so that we can render SVGs with curves and arbitrary True-Type fonts. We want to be able to render an image that looks like XXXXX"_.  Or 
+* A brief 1-to-2 sentence summary of your project plus a potential image or link to a video that shows off an example of something you'd like  For example: _"We are going to extend assignment 1 with support for drawing spline curves so that we can render SVGs with curves and arbitrary True-Type fonts. We want to be able to render an image that looks like XXXXX"_.  or "We are going to extend assignment 2 with support for mesh downsampling via the quadratic error metric.  We will use this implementation to generate meshes of various levels of detail that we will import into Unity and show how we can choose the right mesh to render as a character gets closer and farther from the camera on screen." 
 
 * No more than a few paragraphs of description of what you will do.  Most importantly, provide a list of features that you will implement or algorithms that you implement.
 
