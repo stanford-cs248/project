@@ -14,7 +14,7 @@ For the final assignment in this course you are free to design your own project.
 
 1. We love it when students get artistically creative with projects (we want to see some great final pictures and animations!), but a major portion of the assignment should be a technical component.  For example, creating a complex scene in Blender or implementing a mini-game in Unity via their level-editing tools is not a well-targeted final project for CS248.  However, implementing a technique discussed in class in Unity, would be a reasonable project.
 
-2. Since the project spans approximately three weeks of class, our expectations are that you attempt a project that is approximately the scope of 2.5 course programming assignments.  In crating your proposal we want to you design a project that is challenging, but can reasonably be done in three weeks.  (Keep in mind you likely have other courses projects and finals during this time as well.)
+2. Since the project spans approximately three weeks of class, our expectations are that you attempt a project that is approximately the scope of 1.5 course programming assignments.  In crating your proposal we want to you design a project that is challenging, but can reasonably be done in three weeks.  (Keep in mind you likely have other courses projects and finals during this time as well.)
 
 3. Just like with all course programming assignments, you can work in teams of up to two students.
 
