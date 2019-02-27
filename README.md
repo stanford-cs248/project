@@ -28,7 +28,7 @@ You are of course encouraged to design your own project, but here are some examp
 
 * Implement all of the extra credits for Assigment 2 (if you haven't done so already) such as mesh beveling, mesh decimation, etc. and use the resulting modeling tool to create a really cool mesh.  A good way to design the project is to first pick a mesh you want to create, and then add features to your tool to make it.
 
-* Complete the Animation part of Assignment 2. (It is described on the Assignment 4 wiki.)  This involves a sampling of inverse kinematics, mass-spring systems, and keyframe animation.  
+* Complete the Animation part of Assignment 2. (It is described on the Assignment 2 wiki.)  This involves a sampling of inverse kinematics, mass-spring systems, and keyframe animation.  
 
 * Extend Assignment 3 to render more advanced shadows and materials.  For example, you could take a look at techniques like cascased shadow maps, screen-space ambient obscurance, environment mapping (by generating a cube map), or other, more advanced types of light sources, like linear-transformed cosines or spherical harmonic lighting.  Then design the coolest scene you can that shows off all the new features.  Or you could also start from a clean code base and write your own openGL (or WebGL renderer) for a scene.  For example, Prof. Kayvon is very interested in someone making a WebGL-based port of assignment 3.
 
