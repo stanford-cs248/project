@@ -1,4 +1,4 @@
-# Final Projects
+# CS248 Final Projects
 
 This repository is located at https://github.com/stanford-cs248/project. 
 
