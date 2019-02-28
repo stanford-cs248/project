@@ -6,7 +6,7 @@ This repository is located at https://github.com/stanford-cs248/project.
 
 1. The project proposal is due __Fri March 1st__ 11:59:59 PM.  Please submit via Canvas. 
 2. The 60-second video presentation of your project is due __Wed March 20__ 6:00 PM. This video can be anything you wish, but it should be designed to show off the best visuals your project has to offer.
-3. The find project writeup is due __Thu March 21st__ at 11:59:59 PM.
+3. The find project writeup is due at __Thu March 21st__ at 12:15 PM.
 
 ## Summary
 
@@ -58,4 +58,4 @@ The video presentation of your project is due Wed March 20 at 6:00pm on Canvas. 
 
 ## Project Report Submission 
 
-The final project report is due Thu March 21st, 11:59:59 PM.  **You cannot use late days for the final project!** Full details of expectations for the report will be posted in the coming weeks.
+The final project report is due Thu March 21st, at 12:15 PM.  **You cannot use late days for the final project!** Full details of expectations for the report will be posted in the coming weeks.
