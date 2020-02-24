@@ -4,7 +4,7 @@
 
 1. The project proposal is due __Thu Feb 27__ 11:59:59 PM.  Please submit via Canvas. 
 2. The final project writeup is due at __Wed March 18th__ at 11:59 PM.
-3. The 90-second video presentation of your project is due __Thu March 19__ 5:00 PM. This video can be anything you wish, but it should be designed to show off the best visuals your project has to offer.
+3. The 90-second video presentation of your project is due __Thu March 19__ 3:00 PM. This video can be anything you wish, but it should be designed to show off the best visuals your project has to offer.
 
 The project proposal deadline is "soft" in that we'd like you to submit a proposal by this time, but the proposal is not graded.  It is only designed to give you an opportunity for feedback from the staff before it is too late. The writeup and video deadlines are hard deadlines --- there are no late days.
 
