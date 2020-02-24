@@ -1,4 +1,4 @@
-# CS248 Final Projects
+# Stanford CS248 Final Projects
 
 ## Due dates
 
