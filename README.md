@@ -18,7 +18,7 @@ For the final assignment in this course you are free to design your own project.
 
 3. Just like with all course programming assignments, you can work in teams of up to two students.
 
-Please feel encouraged to discuss project ideas with your classmates and the staff on Piazza or during office hours. To allow the staff to help you make sure your project is appropriately related to themes from the class and is appropriately scoped for the given amount of time, we ask you to submit a short project proposal, which is worth 5% of your Final Project grade. (see below for details).
+Please feel encouraged to discuss project ideas with your classmates and the staff on Piazza or during office hours. To allow the staff to help you make sure your project is appropriately related to themes from the class and is appropriately scoped for the given amount of time, we ask you to submit a short project proposal. (see below for details).
 
 ## A Few Project Ideas ##
 
