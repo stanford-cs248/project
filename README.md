@@ -72,16 +72,16 @@ The proposal will have the following sections:
 
 The final project report and demonstration video is due Thur March 19st, at 11:59 PM.  **You cannot use late days for the final project!** 
 
-The report should brief, but sufficient to convey everything you did.  In general this can be done in 2-3 pages. It's fine to go above this limit, especially if its due to including good pictures of our results. Remember, the main point of the write up is to give the staff an overview of what the functionality you have implemented and its technical complexity.   
+The report should brief, but sufficient to convey everything you did.  In general this can be done in 2-3 pages. It's fine to go above this limit, especially if its due to including good pictures of our results. Remember, the main point of the write up is to give the staff an overview of what the functionality you have implemented and its technical complexity.  Self-selected projects should take care to really explain what was done. (This is of course simpler for students that implement the Cardinal3D animation project or extensions to Assignments 1 or 3.)
 
-Overall the components of a handin, which can be a zip file, should include:
+Overall the final handin should be a zip file that includes the following components:
 
 1. __Your writeup__, in pdf format, called WRITEUP.PDF which includes:
-  --Your name(s)
-  --Project title. 
-  --A description of the functionality you have implemented. For example "I have implemented triangulate() function that takes a non-triangular mesh and divides it into triangles using the algorithm given in ..." Adding details about your implementation is welcomed, since it will help us grasp the complexity of the functions and the difficult of the work done. 
-  -- Example assets you created (e.g.., a screenshot)
+ * Your name(s)
+ * Project title. 
+ * A description of the functionality you have implemented. For example "I have implemented triangulate() function that takes a non-triangular mesh and divides it into triangles using the algorithm given in ..." Adding details about your implementation is welcomed, since it will help us grasp the complexity of the functions and the difficult of the work done. 
+ * Example assets you created (e.g.., a screenshot)
 
-2. __Your demo video.__ This video should be 1920x1080 (1080p) if possible, no longer than 90 seconds (shorter is fine), and encoded in .mp4 or H.264. The video should be limited to 90 seconds, and can be anything you wish.  However, recommend you use the video to show off all the features you implemented as well any demonstration of the best visuals your project has to offer.  Audio is encouraged for fun!
+2. __Your demo video.__ This video should be 1920x1080 (1080p) if possible, and no longer than 90 seconds (shorter is fine), and encoded in .mp4 or H.264. The video should be limited to 90 seconds, and can include anything you wish.  Your video should provide evidence you implemented the set of features your writeup claims, as well include any demonstration of the best visuals your project has to offer.  Audio is encouraged for fun!
 
 3. __Your assignment code.__  We do not anticipate trying to build or run your code.  We would like it only for potential review.
