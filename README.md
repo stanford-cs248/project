@@ -66,8 +66,6 @@ The proposal will have the following sections:
 
 * Optional: a list of dependencies that your project will be based on.  This might mean starter code you've already found on the internet (or from one of the CS248 assignments).  Or a technical paper/publication/blog post that you will use as a reference.  It might mean datasets or models that you've already found online.  We just want to clearly understand what you are starting with.  
 
-## Video Presentation ##
-
 ## Project Video and Report Submission 
 
 The final project report and demonstration video is due Thur March 19st, at 11:59 PM.  **You cannot use late days for the final project!** 
