@@ -69,8 +69,20 @@ The proposal will have the following sections:
 
 ## Video Presentation ##
 
-The video presentation of your project is due Thurs March 19 at 5:00pm on Canvas.  Last many students added audio effects or music to their videos, and it dramatically increased our enjoyment when watching them!  You will not be graded on your production quality, but good audio does maky your video a lot cooler!
+## Project Video and Report Submission 
 
-## Project Report Submission 
+The final project report and demonstration video is due Thur March 19st, at 11:59 PM.  **You cannot use late days for the final project!** 
 
-The final project report is due Wed March 18st, at 11:59 PM.  **You cannot use late days for the final project!** 
+The report should brief, but sufficient to convey everything you did.  In general this can be done in 2-3 pages. It's fine to go above this limit, especially if its due to including good pictures of our results. Remember, the main point of the write up is to give the staff an overview of what the functionality you have implemented and its technical complexity.   
+
+Overall the components of a handin, which can be a zip file, include:
+
+1. A pdf, called WRITEUP.PDF which includes:
+  --Your name(s)
+  --Project title. 
+  --A description of the functionality you have implemented. For example "I have implemented triangulate() function that takes a non-triangular mesh and divides it into triangles using the algorithm given in ..." Adding details about your implementation is welcomed, since it will help us grasp the complexity of the functions and the difficult of the work done. 
+  -- Example assets you created (e.g.., a screenshot)
+
+2. Your assignment code.  We do not anticipate trying to build or run your code.  We would like it only for potential review.
+
+3. Your demo video. This video should be 1920x1080 (1080p) if possible, no longer than 90 seconds (shorter is fine), and encoded in .mp4 or H.264. The video should be limited to 90 seconds, and can be anything you wish.  However, recommend you use the video to show off all the features you implemented. 
