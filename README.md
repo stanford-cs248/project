@@ -45,7 +45,6 @@ You are of course encouraged to design your own project, but here are some examp
 
 * Implement corners and creases in Catmull-Clark subdivision.  (this might be part of a project)
 
-
 ## The Project Proposal ##
 
 Please submit a proposal via Canvas, ideally by 11:59pm on Thursday 2/27.  Your proposal can be short (2 pages max), but it should clearly state your plans for the project.  Please follow the guidlines/template below:
@@ -69,6 +68,8 @@ The proposal will have the following sections:
 ## Project Report and Video Submission 
 
 The final project report and accompanying demonstration video is due Thu March 19th, at 11:59 PM.  **You cannot use late days for the final project!** 
+
+We require both a report and video handin, as described below. But you will receive a single overall grade for the project.  There are no predefined rubrics as all projects are slightly different.
 
 ### Report Handin ###
 
