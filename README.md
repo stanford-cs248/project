@@ -3,7 +3,7 @@
 ## Due dates
 
 1. The project proposal is due __Thu Feb 27__ 11:59:59 PM. 
-2. The final project writeup and video is due on __Thu March 19th__ at 11:59 PM.
+2. The final project writeup and video is due on __Wed March 25th__ at 11:59 PM.  **You cannot use late days for the final project!** 
 
 The project proposal deadline is "soft" in that we'd like you to submit a proposal by this time, but the proposal is not graded.  It is only designed to give you an opportunity for feedback from the staff before it is too late. The writeup and video deadlines are hard deadlines --- there are no late days.
 
@@ -66,8 +66,6 @@ The proposal will have the following sections:
 * Optional: a list of dependencies that your project will be based on.  This might mean starter code you've already found on the internet (or from one of the CS248 assignments).  Or a technical paper/publication/blog post that you will use as a reference.  It might mean datasets or models that you've already found online.  We just want to clearly understand what you are starting with.  
 
 ## Project Report and Video Submission 
-
-The final project report and accompanying demonstration video is due Thu March 19th, at 11:59 PM.  **You cannot use late days for the final project!** 
 
 We require both a report and video handin, as described below. But you will receive a single overall grade for the project.  There are no predefined rubrics as all projects are slightly different.
 
