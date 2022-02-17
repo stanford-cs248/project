@@ -2,10 +2,12 @@
 
 ## Due dates
 
-1. The project proposal is due __Thu March 4__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
-2. Your final project writeup and demo video is due on __Thursday March 18th__ at 11:59 PM.  **You cannot use late days for the final project!** 
+1. The project proposal is due __Wed Feb 23__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
+2. Your final project writeup and demo video is due on Friday __March 11th__ at 11:59 PM.  **You cannot use late days for the final project!** 
 
 The project proposal deadline is "soft" in that we strongly encourage you to submit a proposal, but the proposal is not graded.  The purpose of the project proposal is to give you an opportunity to put your plans down on paper so you can get feedback from the staff about whether the project is too easy or too hard before it is too late. The writeup and video deadlines are hard deadlines --- there are no late days.
+
+__We will have a final project celebration and watch party to watch all the project videos as a group during our final exam slot on Tuesday March 15th from 3:30-6:30pm.__. More details to come, but we hope to be able to give the option to attend the watch party in person for those that want to.
 
 ## Summary
 
@@ -13,13 +15,13 @@ For the final assignment in this course you are free to design your own project.
 
 1. We love it when students get artistically creative with projects (we want to see some great final pictures and animations!), but a major portion of the assignment should be a technical component.  For example, creating a complex scene in 3D modeling package like [Blender](https://www.blender.org/) or implementing a mini-game in [Unity](https://unity.com/) via their level-editing tools is not a well-targeted final project for CS248.  However, implementing a technique discussed in class in Unity would be a reasonable project.
 
-2. Since the project spans three weeks of the quarter (and that period of time includes an exam), our expectations are that you attempt a project that is approximately the scope of a course programming assignment (perhaps a little bit more work if you have the time).  In creating your proposal we want to you design a project that is challenging, but can reasonably be done in three weeks.  __We encourage you to be ambitious, but keep in mind you likely have other course projects and obligations during this time as well.__
+2. Since the project spans a little over three weeks of the quarter (and that period of time includes an exam), our expectations are that you attempt a project that is approximately the scope of course programming assignment (perhaps a little bit more work if you have the time).  In creating your proposal we want to you design a project that is challenging, but can reasonably be done in three weeks.  __We encourage you to be ambitious, but keep in mind you likely have other course projects and obligations during this time as well.__
 
 3. Just like with all course programming assignments, you can work in teams of up to two students.
 
 4. Usually the best projects start with dreaming up an image you want to create and finding an example of that image on the internet. In your proposal show an image that you have in mind (e.g., download a photo, illustration, or someone else's computer-generated image) from the internet as an example to convey your goals. Once you have an image in mind, then all your project work can just be focused on implementing the algorithms necessary to create that image.
 
-Please feel encouraged to discuss project ideas with your classmates and the staff on Piazza or during office hours. To allow the staff to help you make sure your project is appropriately related to themes from the class and is appropriately scoped for the given amount of time, we ask you to submit a short project proposal. (see below for details).
+Please feel encouraged to discuss project ideas with your classmates and the staff on Ed or during office hours. To allow the staff to help you make sure your project is appropriately related to themes from the class and is appropriately scoped for the given amount of time, we ask you to submit a short project proposal. (see below for details).
 
 ## A Few Project Ideas ##
 
@@ -27,11 +29,11 @@ We have released example demo videos from a number of 2019 projects on Canvas/Pa
 
 You are of course encouraged to design your own project, but here are some examples to get you thinking: 
 
-* Extend the SVG renderer from Assignment 1 so it can render as many SVG files from the web as possible.  This would involve adding support for new primitive types: spline curves, elipses, rotated images, fonts, text. etc.  We recommend that you start by downloading some interesting SVG's and then continue to add features to your SVG renderer until it correctly renders them. (you might have to improve the start code's SVG parser to support these more advanced effects as well.)
+* Extend the SVG renderer from Assignment 1 so it can render as many SVG files from the web as possible.  This would involve adding support for new primitive types: spline curves, elipses, rotated images, fonts, text. etc that you might not have had a chance to implement during Assignment 1.  We recommend that you start by downloading some interesting SVG's and then continue to add features to your SVG renderer until it correctly renders them. (you might have to improve the start code's SVG parser to support these more advanced effects as well.)
 
 * Complete the Animation part of Assignment 2. (It is described on the Assignment 2 wiki.)  This involves a sampling of inverse kinematics, mass-spring systems, and keyframe animation.  
 
-* If you haven't done so already, extend Assignment 3 to render more advanced shadows and materials.  For example, you could take a look at techniques like cascased shadow maps, screen-space ambient obscurance, environment mapping (by generating a cube map), or other, more advanced types of light sources, like [linearly-transformed cosines](https://eheitzresearch.wordpress.com/415-2/) or spherical harmonic lighting.  Then design the coolest scene you can that shows off all the new features.  Or you could also start from a clean code base and write your own openGL (or WebGL renderer) for a scene.  
+* If you haven't done so already, extend Assignment 3 to render more advanced shadows and materials.  For example, you could take a look at techniques like Cascased shadow maps, screen-space ambient obscurance, environment mapping (by generating a cube map), or other, more advanced types of light sources, like [linearly-transformed cosines](https://eheitzresearch.wordpress.com/415-2/) or spherical harmonic lighting.  Then design the coolest scene you can that shows off all the new features.  Or you could also start from a clean code base and write your own openGL (or WebGL renderer) for a scene.  
 
 * Some students get really interested in procedural modeling, where you create expressions that create complex geometric scenes from a small number of simple rules.  Google topics like "procedural modeling", "L-systems", the site <a href="https://www.shadertoy.com/">shadertoy.com</a> is inspirational. (See <a href="https://cineshader.com/gallery">CineShader.com</a> for top shadertoy examples.)
 
@@ -47,7 +49,7 @@ You are of course encouraged to design your own project, but here are some examp
 
 * A big idea these days is using machine learning to determine how to combine a small number of supersamples into a final high quality resolved result.  The result is that images produced with only a small number of samples per pixel look as it they were rendered with much higher sample counts. See techniques like [morphological anti-aliasing](http://www.iryoku.com/mlaa/), which predated use of modern deep learning techniques, or more modern techniques based on DNNs for image-to-image transfer.
 
-* Implement corners and creases in Catmull-Clark subdivision.  (this on its own is a little small for a project, it might be part of a project that also includes another extra credits from Assignment 2.)
+* Implement corners and creases in Catmull-Clark subdivision.  (This on its own is a little small for a project, it might be part of a project that also includes another extra credits from Assignment 2.)
 
 ## The Project Proposal ##
 
