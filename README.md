@@ -2,7 +2,7 @@
 
 ## Due dates
 
-1. The project proposal is due __Wed Feb 23__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
+1. The project proposal is due __Thu Feb 24__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
 2. Your final project writeup and demo video is due on Friday __March 11th__ at 11:59 PM.  **You cannot use late days for the final project!**
 
 The project proposal deadline is "soft" in that we strongly encourage you to submit a proposal, but the proposal is not graded.  The purpose of the project proposal is to give you an opportunity to put your plans down on paper so you can get feedback from the staff about whether the project is too easy or too hard before it is too late. The writeup and video deadlines are hard deadlines --- there are no late days.
@@ -53,7 +53,7 @@ You are of course encouraged to design your own project, but here are some examp
 
 ## The Project Proposal ##
 
-Please submit a proposal via Gradescope. Your proposal can be short (2 pages max), but it should clearly state your plans for the project.  If you submit prior to February 23rd, please let the staff know on Ed so they can give you feedback early.  Please follow the guidelines/template below:
+Please submit a proposal via Gradescope. Your proposal can be short (2 pages max), but it should clearly state your plans for the project.  If you submit prior to February 24th, please let the staff know on Ed so they can give you feedback early.  Please follow the guidelines/template below:
 
 The proposal will have the following sections:
 
