@@ -3,7 +3,7 @@
 ## Due dates
 
 1. The project proposal is due __Wed Feb 23__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
-2. Your final project writeup and demo video is due on Friday __March 11th__ at 11:59 PM.  **You cannot use late days for the final project!** 
+2. Your final project writeup and demo video is due on Friday __March 11th__ at 11:59 PM.  **You cannot use late days for the final project!**
 
 The project proposal deadline is "soft" in that we strongly encourage you to submit a proposal, but the proposal is not graded.  The purpose of the project proposal is to give you an opportunity to put your plans down on paper so you can get feedback from the staff about whether the project is too easy or too hard before it is too late. The writeup and video deadlines are hard deadlines --- there are no late days.
 
@@ -27,13 +27,13 @@ Please feel encouraged to discuss project ideas with your classmates and the sta
 
 We have released example demo videos from a number of 2019 projects on Canvas/Panopto (the same place lecture videos are hosted).  We encourage you to take a look at what students have tried in the past.
 
-You are of course encouraged to design your own project, but here are some examples to get you thinking: 
+You are of course encouraged to design your own project, but here are some examples to get you thinking:
 
 * Extend the SVG renderer from Assignment 1 so it can render as many SVG files from the web as possible.  This would involve adding support for new primitive types: spline curves, elipses, rotated images, fonts, text. etc that you might not have had a chance to implement during Assignment 1.  We recommend that you start by downloading some interesting SVG's and then continue to add features to your SVG renderer until it correctly renders them. (you might have to improve the start code's SVG parser to support these more advanced effects as well.)
 
-* Complete the Animation part of Assignment 2. (It is described on the Assignment 2 wiki.)  This involves a sampling of inverse kinematics, mass-spring systems, and keyframe animation.  
+* Complete the Animation part of Assignment 2. (It is described on the Assignment 2 wiki.)  This involves a sampling of inverse kinematics, mass-spring systems, and keyframe animation.
 
-* If you haven't done so already, extend Assignment 3 to render more advanced shadows and materials.  For example, you could take a look at techniques like Cascased shadow maps, screen-space ambient obscurance, environment mapping (by generating a cube map), or other, more advanced types of light sources, like [linearly-transformed cosines](https://eheitzresearch.wordpress.com/415-2/) or spherical harmonic lighting.  Then design the coolest scene you can that shows off all the new features.  Or you could also start from a clean code base and write your own openGL (or WebGL renderer) for a scene.  
+* If you haven't done so already, extend Assignment 3 to render more advanced shadows and materials.  For example, you could take a look at techniques like Cascased shadow maps, screen-space ambient obscurance, environment mapping (by generating a cube map), or other, more advanced types of light sources, like [linearly-transformed cosines](https://eheitzresearch.wordpress.com/415-2/) or spherical harmonic lighting.  Then design the coolest scene you can that shows off all the new features.  Or you could also start from a clean code base and write your own openGL (or WebGL renderer) for a scene.
 
 * Some students get really interested in procedural modeling, where you create expressions that create complex geometric scenes from a small number of simple rules.  Google topics like "procedural modeling", "L-systems", the site <a href="https://www.shadertoy.com/">shadertoy.com</a> is inspirational. (See <a href="https://cineshader.com/gallery">CineShader.com</a> for top shadertoy examples.)
 
@@ -53,7 +53,7 @@ You are of course encouraged to design your own project, but here are some examp
 
 ## The Project Proposal ##
 
-Please submit a proposal via Canvas. Your proposal can be short (2 pages max), but it should clearly state your plans for the project.  If you submit prior to March 4th, please let the staff know on Piazza so they can give you feedback early.  Please follow the guidelines/template below:
+Please submit a proposal via Gradescope. Your proposal can be short (2 pages max), but it should clearly state your plans for the project.  If you submit prior to February 23rd, please let the staff know on Ed so they can give you feedback early.  Please follow the guidelines/template below:
 
 The proposal will have the following sections:
 
@@ -61,7 +61,7 @@ The proposal will have the following sections:
 
 * __Names and SuNET ID's__ of the people working on the project
 
-* __Summary:__ A brief 2-3 sentence summary of your project goals plus a potential image or link to a video that shows off an example of something you'd like to create. For example: _"We are going to extend assignment 1 with support for drawing spline curves so that we can render SVGs with curves and arbitrary True-Type fonts. We want to be able to render an image that looks like..."._  or _"We are going to extend assignment 2 with support for mesh downsampling via the quadratic error metric.  We will use this implementation to generate meshes of various levels of detail that we will import into Unity and show how we can choose the right mesh to render as a character gets closer and farther from the camera on screen."_ 
+* __Summary:__ A brief 2-3 sentence summary of your project goals plus a potential image or link to a video that shows off an example of something you'd like to create. For example: _"We are going to extend assignment 1 with support for drawing spline curves so that we can render SVGs with curves and arbitrary True-Type fonts. We want to be able to render an image that looks like..."._  or _"We are going to extend assignment 2 with support for mesh downsampling via the quadratic error metric.  We will use this implementation to generate meshes of various levels of detail that we will import into Unity and show how we can choose the right mesh to render as a character gets closer and farther from the camera on screen."_
 
 * __Task list:__ No more than a few paragraphs of description of what you will do.  Most importantly, provide a list of features that you will implement or algorithms that you will implement.  Break this list into two parts:
   * Short list of things you will implement for a grade  (i.e., you expect to get a good grade if you execute on all of these)
@@ -69,9 +69,9 @@ The proposal will have the following sections:
 
 * __Expected visual deliverables.__ Example images/videos or other assets that you want your project to be able to create.  Often the best projects come when a student group has an image in mind that they want to create at the beginning, and then all work is focused on implementing the algorithms necessary to create that image.
 
-* Optional: a list of dependencies that your project will be based on.  This might mean starter code you've already found on the internet (or from one of the CS248 assignments).  Or a technical paper/publication/blog post that you will use as a reference.  It might mean datasets or models that you've already found online.  We just want to clearly understand what you are starting with.  
+* Optional: a list of dependencies that your project will be based on.  This might mean starter code you've already found on the internet (or from one of the CS248 assignments).  Or a technical paper/publication/blog post that you will use as a reference.  It might mean datasets or models that you've already found online.  We just want to clearly understand what you are starting with.
 
-## Project Report and Video Submission 
+## Project Report and Video Submission
 
 We require both a report and video handin, as described below. But you will receive a single overall grade for the project.  There are no predefined rubrics as all projects are slightly different.
 
@@ -83,8 +83,8 @@ Overall the final writeup handin should be a zip file submitted on Canvas that i
 
 1. __Your writeup__, in pdf format, called `writeup.pdf' which includes:
  * Your name(s)
- * Project title. 
- * A description of the functionality you have implemented. For example "I have implemented triangulate() function that takes a non-triangular mesh and divides it into triangles using the algorithm given in ..." Adding details about your implementation is welcomed, since it will help us grasp the complexity of the functions and the difficult of the work done. 
+ * Project title.
+ * A description of the functionality you have implemented. For example "I have implemented triangulate() function that takes a non-triangular mesh and divides it into triangles using the algorithm given in ..." Adding details about your implementation is welcomed, since it will help us grasp the complexity of the functions and the difficult of the work done.
  * Example assets you created (e.g.., a screenshot)
 
 2. __Your assignment code.__  We do not anticipate trying to build or run your code.  We would like it only for potential review.
