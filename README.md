@@ -73,13 +73,13 @@ The proposal will have the following sections:
 
 ## Project Report and Video Submission
 
-We require both a report and video handin, as described below. But you will receive a single overall grade for the project.  There are no predefined rubrics as all projects are slightly different.
+We require both a report and video handin, as described below. But you will receive a single overall grade for the project.  There are no predefined rubrics as all projects are slightly different. **One team only needs one submission (report + video)**
 
 ### Report Handin ###
 
-The report should brief, but sufficient to convey everything you did.  In general this can be done in 2-3 pages. It's fine to go above this limit, especially if it's due to including good pictures of your results. Remember, the main point of the write up is to give the staff an overview of what the functionality you have implemented and its technical complexity.  Self-selected projects should take care to really explain what was done.
+The report should brief, but sufficient to convey everything you did.  In general this can be done in 2-3 pages. It's fine to go above this limit, especially if it's due to including good pictures of your results. Remember, the main point of the write up is to give the staff an overview of what the functionality you have implemented and its technical complexity.  Self-selected projects should take care to really explain what was done. 
 
-Overall the final writeup handin should be a zip file submitted on Canvas that includes the following components:
+Overall the final writeup handin should be a zip file submitted on **Canvas** that includes the following components:
 
 1. __Your writeup__, in pdf format, called `writeup.pdf' which includes:
  * Your name(s)
@@ -92,5 +92,4 @@ Overall the final writeup handin should be a zip file submitted on Canvas that i
 ### Video Handin ###
 
 Your demo video is a separate handin on Canvas. Your demo video should be 1920x1080 (1080p) if possible, and no longer than 90 seconds (shorter is fine), and encoded in standard video formats like .mp4 or H.264. The video should be limited to 90 seconds, and can include anything you wish.  Your video should provide evidence you implemented the set of features your writeup claims, as well include any demonstration of the best visuals your project has to offer.  As you can see in the examples from prior years, adding audio to you demo is encouraged for fun!
-
 
