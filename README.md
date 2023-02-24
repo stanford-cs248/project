@@ -37,15 +37,18 @@ You are encouraged to design your own project, but here are some examples to get
 * Extend the path tracer assignment with new features. This might include:
    * [Accurate camera simulation](https://graphics.stanford.edu/papers/camera/) or [motion blur](http://psgraphics.blogspot.com/2016/02/motion-blur-in-ray-tracer.html)
    * Support for ray tracing new primitive types, like [subdivision surfaces](https://graphics.stanford.edu/~boulos/papers/subdiv_tr.pdf).
-   * Extend your renderer to do multi-spectral rendering, where you trace different rays for different wavelengths, allowing you to render prism-like effects [like this] (https://blender.stackexchange.com/questions/1602/light-spectrum-dispersion-effect-in-blender).
-   * Add important-sampled environment maps to your ray tracer.
-   * If you are feeling ambitious (advanced mode warning!!!) try more advanced importance sampling techniques like [practical path guiding](https://studios.disneyresearch.com/wp-content/uploads/2019/03/Practical-Path-Guiding-for-Efficient-Light-Transport-Simulation.pdf) or [neural path importance samping](https://dl.acm.org/doi/abs/10.1145/3341156?casa_token=3ItxOk6eb6QAAAAA:ANc4xVSwPbtbvZ8AVCh8S2KUfhV_-KtSmtrw_4Enx1iHTZxefhauDK6iYQBBhGNjhFkVUv8Qr6zr).  Some students might be very interested in all the importance sampling work targeting real-time ray tracing, such as NVIDIA's [ReSTIR](https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct) algorithm for significantly reducing the number of samples needed to get good results in a many light situation or consider the [2022 version](https://research.nvidia.com/publication/2022-07_generalized-resampled-importance-sampling-foundations-restir) or [ReSTIR-GI](https://research.nvidia.com/publication/2021-06_restir-gi-path-resampling-real-time-path-tracing).
+   * Extend your renderer to do multi-spectral rendering, where you trace different rays for different wavelengths, allowing you to render prism-like effects [like this] (https://blender.stackexchange.com/questions/1602/light-spectrum-dispersion-effect-in-blender).  This involves changing the `Spectrum` class to support more color channels and also modeling wavelength-dependent refraction.
+   * Add important-sampled environment maps to your ray tracer. How do you importance sample environment maps?
+   * If you are feeling ambitious (advanced mode warning!!!) try more advanced importance sampling techniques like [practical path guiding](https://studios.disneyresearch.com/wp-content/uploads/2019/03/Practical-Path-Guiding-for-Efficient-Light-Transport-Simulation.pdf) or [neural path importance samping](https://dl.acm.org/doi/abs/10.1145/3341156?casa_token=3ItxOk6eb6QAAAAA:ANc4xVSwPbtbvZ8AVCh8S2KUfhV_-KtSmtrw_4Enx1iHTZxefhauDK6iYQBBhGNjhFkVUv8Qr6zr).  Some students might be very interested in all the importance sampling work targeting real-time GPU ray tracing, such as NVIDIA's [ReSTIR](https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct) algorithm for significantly reducing the number of samples needed to get good results in a many light situation or consider the [2022 version](https://research.nvidia.com/publication/2022-07_generalized-resampled-importance-sampling-foundations-restir) or [ReSTIR-GI](https://research.nvidia.com/publication/2021-06_restir-gi-path-resampling-real-time-path-tracing).
+
+* Try ray marching signed distance fields (instead of ray tracing geometry), and make a crazy complex scene [like this](https://www.shadertoy.com/view/4t).
+  * An amazing reference is here: <https://iquilezles.org/articles/distfunctions/>
 
 * Some students get really interested in procedural modeling, where you create expressions that create complex geometric scenes from a small number of simple rules.  Google topics like "procedural modeling", "L-systems", the site <a href="https://www.shadertoy.com/">shadertoy.com</a> is inspirational. (See <a href="https://cineshader.com/gallery">CineShader.com</a> for top shadertoy examples.)
 
 * Another procedural-modeling project, would be to take recent algorithms for generating floorplans, furniture layouts, etc and build a system for generating random 3D scenes.  If you are interested in doing this come talk to Kayvon since it would be useful for one of his research projects.  Inspiration might come from projects like [ProcTHOR](https://procthor.allenai.org/). I'd love to have a well-written piece of C++ code that generates scenes like those.
 
-* __If you are interested in performance__, take your Assignment 1 or Assignment 3 Path tracer any parallelize it onto multiple cores and even using SIMD instructions. (We recommend using [ISPC](https://ispc.github.io/) for generating SIMD code for a CPU. Ray tracing is aready parallelized across cores, but it would be interesting to consider SIMD ray tracing and multi-core parallel BVH construction.
+* __If you are interested in performance__, take your Assignment 1 or Assignment 3 path tracer any parallelize it onto multiple cores and even using SIMD instructions. (We recommend using [ISPC](https://ispc.github.io/) for generating SIMD code for a CPU. Ray tracing is aready parallelized across cores, but it would be interesting to consider SIMD ray tracing and multi-core parallel BVH construction.
 
 * In the past, some students have done projects involving Apple's [AR-Kit](https://developer.apple.com/augmented-reality/).
 
@@ -53,7 +56,8 @@ You are encouraged to design your own project, but here are some examples to get
 
 * A big idea these days is using machine learning to determine how to combine a small number of supersamples into a final high quality resolved result.  The result is that images produced with only a small number of samples per pixel look as it they were rendered with much higher sample counts. See techniques like [morphological anti-aliasing](http://www.iryoku.com/mlaa/), which predated use of modern deep learning techniques, or more modern techniques based on DNNs for image-to-image transfer.
 
-* Implement corners and creases in Catmull-Clark subdivision.  (This on its own is a little small for a project, it might be part of a project that also includes additional extra credits from Assignment 2.)
+* Implement corners and creases in Catmull-Clark subdivision. (This on its own is a little small for a project, it might be part of a project that also includes additional extra credits from Assignment 2.)
+
 
 ## The Project Proposal ##
 
