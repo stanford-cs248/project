@@ -2,13 +2,13 @@
 
 ## Due dates
 
-1. The project proposal is due __Friday March 3rd__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
-2. Your final project demo video is due on Monday __March 20th__ at 5 PM.
-3. Your final project handin (writeup + code) is due on Tuesday __March 21st__ at 3:30pm.
-
+1. The project proposal is due __(DATE TBD)__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
+2. Your final project demo video is due on __(DATE TBD)__ at 5 PM.
+3. Your final project handin (writeup + code) is due on Tuesday __(DATE TBD)__.
+4. 
 The project proposal deadline is "soft" in that we strongly encourage you to submit a proposal, but the proposal is not graded.  The purpose of the project proposal is to give you an opportunity to put your plans down on paper so you can get feedback from the staff about whether the project is too easy or too hard before it is too late. The writeup and video deadlines are hard deadlines --- __there are no late days__
 
-__We will have a final project celebration and watch party to watch all the project videos as a group during our final exam slot on Tuesday March 21th from 3:30-5pm__. Everyone in the class is highly encouraged to come in person, but we will give the option to attend the watch party online for those that want to.
+__We will have a final project celebration and watch party to watch all the project videos as a group during our final exam slot on Tuesday March 19th from 3:30-5pm__. Everyone in the class is highly encouraged to come in person, but we will give the option to attend the watch party online for those that want to.
 
 ## Summary
 
