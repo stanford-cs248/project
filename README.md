@@ -2,7 +2,7 @@
 
 ## Due dates
 
-1. The project proposal is due __Wed, March 26th__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
+1. The project proposal is due __Wed, Feb 26th__ 11:59:59 PM, but feel __strongly encouraged__ to submit earlier to get quicker feedback.
 2. Your final project demo video is due on __Monday, March 17th__ at 5 PM.
 3. Your final project hand-in (writeup + code) is due on Tuesday __March 18th at 3:00pm__.
 4. The project proposal deadline is "soft" in that we strongly encourage you to submit a proposal, but the proposal is not graded.  The purpose of the project proposal is to give you an opportunity to put your plans down on paper so you can get feedback from the staff about whether the project is too easy or too hard before it is too late. The writeup and video deadlines are hard deadlines --- __there are no late days__
