@@ -27,7 +27,20 @@ Please feel encouraged to discuss project ideas with your classmates and the sta
 
 We will release example demo videos from a number of prior projects on Canvas/Panopto (the same place lecture videos are hosted).  You are encouraged to design your own project, but here are some examples to get you thinking:
 
-* __Ray Tracing 3D Gaussians__: Implement a ray tracer of 3D Gaussians (stored in a BVH) would be a great final project. An even better final project would be to implement recovery of 3D Gaussians from images. You've already done it for meshes. A good reference is [here](https://gaussiantracer.github.io/). 
+* __Ray Tracing 3D Gaussians__: Implement a ray tracer of 3D Gaussians (stored in a BVH) would be a great final project. An even better final project would be to implement recovery of 3D Gaussians from images. You've already done it for meshes. A good reference is [here](https://gaussiantracer.github.io/).
+
+> Hint on how to implement this in our Slang codebase:
+>
+> 1. Implement a new `Gaussian` primitive type similar to the `Triangle` primitive type you implemented in the first three assignments. The Gaussian primitive should:
+>   * Store the position, covariance matrix, color, and opacity of the Gaussian.
+>   * Implement the covariance, evaluation of the Gaussian function at a point, and ray intersection functions. (The intersection function between a ray and a 3D gaussian should follow the maximum response equation covered in https://arxiv.org/abs/2407.07090).
+>   * We ~~accidentally~~ released an unfinished implementation of the Gaussian primitive in the starter code for assignment 3: https://github.com/stanford-cs248/asst3/blob/main/src/cs248a_renderer/slang_shaders/primitive/gaussian.slang. This implementation is not complete, but you can read through it to get a sense of how to implement the Gaussian primitive.
+> 2. Naive ray tracing of 3D Gaussians
+>   * Find the closes hit of a ray with all the Gaussians in the scene. This is similar to the ray triangle intersection you implemented in assignment 1. But for gaussian rendering, you also have to keep track of the attenuation of the ray as it travels. This is similar to the volume rendering you implemented in assignment 2.
+> 3. BVH acceleration structure for 3D Gaussians
+>   * In `src/cs248a_renderer/model/mesh.py`, we defined the `Triangle` primitive. It inherits the `Primitive` base class, and all it requires is implementing the `bounding_box` function. Your BVH construction algorithm uses this to build the BVH. Can you define a `Gaussian` primitive that also inherits from `Primitive` and implements the `bounding_box` function?
+> 4. Notes on the architectural design of our Slang codebase:
+>   * If you want to create a new uniform buffer loaded from Python (e.g. a `Gaussian` structured buffer, or a `BVH<Gaussian>`), you have to create it in the `RendererUniform` in `src/cs248a_renderer/slang_shaders/renderer.slang`. Then, in `src/cs248a_renderer/renderer/core_renderer.py`, you have to load the data into the uniform buffer and bind it to the shader. You can look at how the `Triangle` structured buffer and triangle BVH is implemented for reference.
 
 * __More Advanced Implicit Surface Rendering__:
 You have a ray marcher of SDFs, you could add new primitives to your ray tracer and make a complex scene of SDFs. See (https://iquilezles.org/articles/raymarchingdf/) for many examples of how powerful this technique is. Just make sure you had some heft to this project beyond implementing a few functions from that web site. I'd like to see you envision a scene (e.g., find a photo online) and attempt to recreate parts of the scene with implicits.
