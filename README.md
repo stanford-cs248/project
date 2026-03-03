@@ -55,10 +55,14 @@ You have a ray marcher of SDFs, you could add new primitives to your ray tracer 
   In programming assignment 3, you learned how to raytrace photorealistic images of 3D scenes. Now, imagine you can render a 3D scene in a non-photorealistic way, with a specific art style. Stylized shaders can manipulate light, color, texture, and edge detection to achieve a look that resonates with particular artistic movements or personal aesthetics. They offer a versatile toolset for artists and developers to craft visuals that are expressive, mood-setting, and distinct from the conventional realism in 3D graphics.
   There are many shader styles you can implement. One of the most popular ones is the Toon/Cel Shader. You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Cel_shading).
 
-The following are cool areas in graphics to draw from. Feel free to draw on these in your own proposals! You can pick portions of them to implement based on what you’ve learned in this class:
-
 * __Stylization of Meshes__:
   Similar to non-photorealistic pixel shaders, we can render geometry in non-photorealistic ways! Check out this fun paper: [Cubic Stylization by Hsueh-Ti Derek Liu and Alec Jacobson](https://www.dgp.toronto.edu/projects/cubic-stylization/). Imagine you have a squishy toy that you can mold into a shape that's kind of like a cube, but still looks like the toy. That's what this paper’s 3D styling trick does with digital shapes. The authors found out that you can make shapes look more like cubes if you treat their surfaces like stiff paper that only folds at sharp angles, not like cloth that can bend smoothly. By adjusting how the surfaces of the shape fold, we can keep the important details while giving it that cubey look. Try this for a fun geometry project!
+
+* In the past, some students have done projects involving Apple's [AR-Kit](https://developer.apple.com/augmented-reality/).
+
+* If you are interested in real-time 3D graphics engine programming, write a 3D renderer from scratch using a modern GPU-accelerated grapshics API like Direct 12 or Vulkan.
+
+* A big idea these days is using machine learning to determine how to combine a small number of supersamples into a final high quality resolved result.  The result is that images produced with only a small number of samples per pixel look as it they were rendered with much higher sample counts. See techniques like [morphological anti-aliasing](http://www.iryoku.com/mlaa/), which predated use of modern deep learning techniques, or more modern techniques based on DNNs for image-to-image transfer (called in DLSS by NVIDIA).
 
 You can also choose to do one of the prior programming assignments from this class. Although these assignments do not involve GPU programming in Slang.
 
@@ -68,12 +72,6 @@ You can also choose to do one of the prior programming assignments from this cla
 
 * __Shaders__: You are given a simple real-time renderer and a simple 3D scene. However, the starter code implements only very simple material and lighting models, so rendered images do not look particularly great.  You will improve the quality of the rendering by implementing a number of lighting and material shading effects using the GLSL, OpenGL's [shading language](https://thebookofshaders.com/01/), as well as some OpenGL client code in C++. Through this project option the point is to get basic experience with modern shader programming, and to build understanding of how material pattern logic, material BRDFs, and lighting computations are combined in a shader to compute surface reflectance. There are countless ways you can keep going by adding more complex materials and lighting.
   Starter Code: <https://github.com/stanford-cs248/shading>
-
-* In the past, some students have done projects involving Apple's [AR-Kit](https://developer.apple.com/augmented-reality/).
-
-* If you are interested in real-time 3D graphics engine programming, write a 3D renderer from scratch using a modern GPU-accelerated grapshics API like Direct 12 or Vulkan.
-
-* A big idea these days is using machine learning to determine how to combine a small number of supersamples into a final high quality resolved result.  The result is that images produced with only a small number of samples per pixel look as it they were rendered with much higher sample counts. See techniques like [morphological anti-aliasing](http://www.iryoku.com/mlaa/), which predated use of modern deep learning techniques, or more modern techniques based on DNNs for image-to-image transfer (called in DLSS by NVIDIA).
 
 ## The Project Proposal ##
 
