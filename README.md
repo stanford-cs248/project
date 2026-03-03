@@ -58,9 +58,11 @@ You have a ray marcher of SDFs, you could add new primitives to your ray tracer 
 * __Stylization of Meshes__:
   Similar to non-photorealistic pixel shaders, we can render geometry in non-photorealistic ways! Check out this fun paper: [Cubic Stylization by Hsueh-Ti Derek Liu and Alec Jacobson](https://www.dgp.toronto.edu/projects/cubic-stylization/). Imagine you have a squishy toy that you can mold into a shape that's kind of like a cube, but still looks like the toy. That's what this paper’s 3D styling trick does with digital shapes. The authors found out that you can make shapes look more like cubes if you treat their surfaces like stiff paper that only folds at sharp angles, not like cloth that can bend smoothly. By adjusting how the surfaces of the shape fold, we can keep the important details while giving it that cubey look. Try this for a fun geometry project!
 
+* Make an interactive visualizer to teach a concept.  Recall in the texture mapping lecture I have an interactive viewer that visualized both a rendered surface and texture space. I could "paint" on the surface and you'd see the same region drawn in texture space (see [this slide](https://gfxcourses.stanford.edu/cs248a/winter26/lecture/texture/slide_30). You could consider making interactive visualizations for other concepts in this class, and if successful, I'd almost certaienly ask you if I could use it in future years.
+
 * In the past, some students have done projects involving Apple's [AR-Kit](https://developer.apple.com/augmented-reality/).
 
-* If you are interested in real-time 3D graphics engine programming, write a 3D renderer from scratch using a modern GPU-accelerated grapshics API like Direct 12 or Vulkan.
+* If you are interested in real-time 3D graphics engine programming, write a 3D renderer from scratch using a modern GPU-accelerated graphics API like Direct 12 or Vulkan.
 
 * A big idea these days is using machine learning to determine how to combine a small number of supersamples into a final high quality resolved result.  The result is that images produced with only a small number of samples per pixel look as it they were rendered with much higher sample counts. See techniques like [morphological anti-aliasing](http://www.iryoku.com/mlaa/), which predated use of modern deep learning techniques, or more modern techniques based on DNNs for image-to-image transfer (called in DLSS by NVIDIA).
 
