@@ -61,6 +61,14 @@ You have a ray marcher of SDFs, you could add new primitives to your ray tracer 
 * __Spectral Path Tracer__:
   Extend your path tracer to support spectral rendering.  Each ray will be associated with one (randomly chosen) wavelength of light. Shooting many rays per pixel means that all wavelengths will be sampled inside a pixel, and you'll be able to render effects like the [seperation of light by a prism](https://blender.stackexchange.com/questions/1602/light-spectrum-dispersion-effect-in-blender) or a rainbow!
 
+> Hint on how to implement this in our Slang codebase:
+>
+> 1. For each ray, you will need to store a wavelength instead of a RGB color.
+> 2. Your refraction BRDF will need to be wavelength dependent. This means that the index of refraction will be a function of wavelength.
+> 3. The Monte Carlo integration will need to be modified to account for the fact that each ray only samples one wavelength. This means that you will need to shoot more rays per pixel to get a good approximation of the full spectrum of light.
+> 4. The radiance accumulation will need to be modified to account for the fact that each ray only samples one wavelength. This means that you will need to accumulate the radiance for each wavelength separately, and then combine them at the end to get the final color of the pixel.
+> 5. You might want to adopt the idea of importance sampling for wavelengths. For example, if you are rendering a scene with a lot of red light, you might want to shoot more rays with wavelengths in the red part of the spectrum.
+
 * __Neural Importance Sampling__:
   Can neural networks be used to help sample when ray tracing a scene? In class, we talked about different importance sampling techniques; in Neural Importance Sampling [Muller 19], authors describe a manner to fit neural networks to sample distributions in scenes. Check it out! http://jannovak.info/publications/NIS/index.html
 
